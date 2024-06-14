@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: Nunito;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.0)),
+    url("..//imagenes/marcadeagua.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.container .row .col{
+    margin-top: 80px;
+    margin: 5px;
+    background-color: rgb(110, 188, 251);
+    border-radius: 1.5px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+h2{
+    padding: 50px;
+}
+/* Tamaño de las imagenes */
+.coverCard {
+    width: 350px;
+}
